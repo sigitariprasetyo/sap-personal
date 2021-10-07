@@ -1,0 +1,93 @@
+.list{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 3rem 0;
+}
+
+.listContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.listTitle{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.listParagraf{
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.listItem{
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px){
+  .list{
+    margin: 64px 4rem;
+    gap: 24px
+  }
+
+  .menuSection{
+    padding: 0 2rem;
+  }
+
+  .listTitle{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .listParagraf{
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .listItem{
+    max-width: 203px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .list{
+    display: flex;
+    flex-direction: column;
+    margin: 32px 1.5rem;
+  }
+
+  .menuSection{
+    padding: 0 1rem;
+  }
+
+  .listContainer{
+    display: flex;
+    margin-left: 18px;
+  }
+
+  .listTitle{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    margin-bottom: 4px;
+  }
+
+  .listParagraf{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .listItem{
+    margin-bottom: 14px;
+    max-width: 320px;
+    flex-direction: row;
+  }
+}
