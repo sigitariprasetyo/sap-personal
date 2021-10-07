@@ -32,10 +32,10 @@ const Header = () => {
         </li>
       </div>
       <div className={styles.div3}>
-        <a className="socialIcon" href="https://github.com/sigitariprasetyo" target="_blank">
+        <a className="socialIcon" href="https://github.com/sigitariprasetyo" target="_blank" rel="noreferrer">
           <AiFillGithub size="3rem" />
         </a>
-        <a className="socialIcon" href="https://linkedin.com/in/sigit-ari-prasetyo-63bb82187" target="_blank">
+        <a className="socialIcon" href="https://linkedin.com/in/sigit-ari-prasetyo-63bb82187" target="_blank" rel="noreferrer">
           <AiFillLinkedin size="3rem" />
         </a>
       </div>
